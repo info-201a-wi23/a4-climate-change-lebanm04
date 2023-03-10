@@ -16,7 +16,7 @@ library(scales)
 library(plotly)
 datafile<- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv", stringsAsFactors = FALSE)
 
-shiny("https://lebanm04.shinyapps.io/a4-climate-change-jasminempham/")
+shiny("https://lebanm04.shinyapps.io/a4-climate-change-lebanm04/")
 
 #data file for the summary values
 us_data <- datafile %>%
